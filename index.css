@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Universal Selector */
+html{
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+.background-image {
+  background-image: url("./pencil\,white\,\ glasses.jpeg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  height: 100vh;
+}
+#name {
+  font-weight: 600;
+  font-size: x-large;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 10px; */
+  margin-left: 30px;
+  margin-right: 10px;
+  padding: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+#title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fec360;
+}
+#tittle {
+  color: #f11b43;
+}
+.links {
+  align-items: center;
+  display:contents;
+
+}a:hover {
+  background-color: #f11b43;
+  transition: 0.5s;
+  color: #fec360;
+}
+a {
+  text-decoration: none;
+  justify-content: space-between;
+  color: #530a18;
+  padding: 1%;
+  border-radius: 5px;
+}
+#login {
+  align-items: center;
+
+  padding: 10px 20px;
+  color: hsl(349, 100%, 23%);
+  border: none;
+  border-radius: 5px;
+}
+.content {
+  padding: 10% 0;
+  /* display:flex; */
+  justify-content: center;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 50%;
+  margin-left: 30px;
+  line-height: 22px;
+}
+#login:hover,
+.gst-button:hover {
+  background-color: #f11b43;
+  transition: 0.5s;
+  color: #fec360;
+}
+.gst-button {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.gst-button:local-link
+section {
+  display: flex;
+  scroll-behavior: smooth;
+
+}
+img {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 1px;
+}
+.content-scholarship {
+  padding: 10% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 50%;
+  margin-left: 30px;
+  line-height: 22px;
+}
+.scholarship-content-section {
+  padding: 0 100px;
+}
+.scholarship-content-para {
+  padding-left: 15px;
+  height: 100%;
+  line-height: 1.6rem;
+  font-display: initial;
+}
+h3,
+h2,
+.scholarship-title {
+  color: #530a18;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h3,
+h2 {
+  margin-bottom: 20px;
+}
+.scholarship-title {
+  margin: 50px 0;
+}
+footer{
+padding: 3%;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+background-color: #f2f2f2;
+}

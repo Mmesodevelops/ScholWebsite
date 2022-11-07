@@ -1,0 +1,60 @@
+body {
+  background-image: url("./pen\ pink\ wite.jpeg");
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #530a18;
+  height: 100vh;
+}
+.contact {
+  padding: 2% 20px;
+  margin: 0 10%;
+  width: 70%;
+}
+.connect {
+  padding-right: 20px;
+  margin: auto;
+  width: 30%;
+}
+a {
+  text-decoration: none;
+  align-items: center;
+  color: #f11b43;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  margin: 20px 0;
+  font-size: larger;
+}
+a:hover {
+  background-color: #f11b43;
+  color: #fec360;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+textarea {
+  border-radius: 10px;
+}
+input {
+  padding: 2%;
+  border-radius: 10px;
+  background-color: #f3f3f3f3;
+  color: #000;
+}
+button {
+  color: #f11b43;
+  border-radius: 5px;
+border: none;
+font-size: large;
+}
+button:hover {
+  background-color: #f11b43;
+  transition: 0.5s;
+  color: #fec360;
+}

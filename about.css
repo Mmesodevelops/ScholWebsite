@@ -1,0 +1,47 @@
+body{
+    background-image: url('./black\ pencil\ white.jpeg');
+ background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: 100vh;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f11b43;
+}
+.container{
+    justify-content: center;
+    object-fit: contain;
+}
+.content{
+    width: 50%;
+    padding: 5%;
+  color: #530a18;
+    
+}
+a{
+    text-decoration: none;
+align-items: center;
+    display: flex;
+justify-content: space-between;
+padding:5% ;
+color: #f11b43;
+border-radius: 10%;
+}
+a:hover{
+    /* background-color: #ffffff00; */
+    background-color: #f11b43;
+    transition: .3s;
+      /* background-color:#f11b43; */
+    /* transition: .5s; */
+    color: #fec360;
+
+}
+.button{
+    padding: 5%;
+    width: 20%;
+    height: 5%;
+}
